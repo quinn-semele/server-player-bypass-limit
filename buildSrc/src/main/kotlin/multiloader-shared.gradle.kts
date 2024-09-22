@@ -88,6 +88,8 @@ tasks.jar {
 
     exclude("**/datagen/**")
     exclude(".cache/**")
+
+    from(rootDir.resolve("LICENSE"))
 }
 
 tasks.processResources {
