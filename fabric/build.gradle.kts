@@ -2,6 +2,7 @@ import dev.compasses.multiloader.Constants
 
 plugins {
     id("multiloader-threadlike")
+    id("bypasslimit-deps")
 }
 
 multiloader {

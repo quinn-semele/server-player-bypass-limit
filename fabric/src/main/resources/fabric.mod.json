@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "${mod_id}",
+    "version": "${version}",
+    "name": "${mod_name}",
+    "description": "${description}",
+    "authors": [
+        "${fl_authors}"
+    ],
+    "contact": {
+        "homepage": "${homepage}",
+        "issues": "${issue_tracker}",
+        "sources": "${sources_url}"
+    },
+    "license": "${license}",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "es.degrassi.serverplayerbypasslimit.fabric.ServerPlayerBypassLimitFabric"
+        ]
+    },
+    "mixins": [
+        "${mod_id}.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${fabric_loader_version}",
+        "fabric-api": ">=${fabric_api_version}",
+        "minecraft": "${fl_minecraft_constraint}",
+        "java": ">=${java_version}"
+    }
+}

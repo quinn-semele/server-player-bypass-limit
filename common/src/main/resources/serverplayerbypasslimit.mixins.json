@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "es.degrassi.serverplayerbypasslimit.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["PlayerListMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+
